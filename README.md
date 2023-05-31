@@ -1,6 +1,5 @@
 # Snake Game
 This is a basic snake game. For this project I use vanilla Javascript HTML and CSS.
-
 * Click 👉🏾[here](https://snake-game-4h6jispeo-muhreeowki.vercel.app/)👈🏾 for to use the deployed application. *
 
 ## Usage
