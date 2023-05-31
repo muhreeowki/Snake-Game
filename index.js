@@ -33,22 +33,19 @@ const handleGameOver = () => {
 
 // Function to change direction based on what key is clicked
 const changeDirection = (e) => {
+  console.log(e.key)
   if (e.key === "ArrowUp" && velocityY != 1) {
     velocityX = 0;
     velocityY = -1;
-    console.log("up");
   } else if (e.key === "ArrowDown" && velocityY != -1) {
     velocityX = 0;
     velocityY = 1;
-    console.log("down");
   } else if (e.key === "ArrowRight" && velocityX != -1) {
     velocityX = 1;
     velocityY = 0;
-    console.log("right");
   } else if (e.key === "ArrowLeft" && velocityX != 1) {
     velocityX = -1;
     velocityY = 0;
-    console.log("left");
   }
 };
 
@@ -110,4 +107,6 @@ const initGame = () => {
 
 updateFoodPosition();
 setIntervalId = setInterval(initGame, 150);
-document.addEventListener("keypress", changeDirection);
+document.addEventListener("keydown", (e) => {
+  changeDirection(e)
+});
