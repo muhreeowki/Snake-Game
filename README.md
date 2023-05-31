@@ -1,7 +1,7 @@
 # Snake Game
 This is a basic snake game. For this project I use vanilla Javascript HTML and CSS.
 
-_Click 👉🏾[here](https://snake-game-4h6jispeo-muhreeowki.vercel.app/)👈🏾 for to use the deployed application._
+____Click 👉🏾[here](https://snake-game-4h6jispeo-muhreeowki.vercel.app/)👈🏾 for to use the deployed application.___
 
 ## Usage
   Use Arrow keys on your keyboard or on the screen to move the snake around.
