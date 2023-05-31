@@ -3,6 +3,9 @@ This is a basic snake game. For this project I use vanilla Javascript HTML and C
 
 
 ## Usage
-  1. Download this repository.
-  2. Open the `index.html` file in your browser.
-  3. Enjoy!
+  Use Arrow keys on your keyboard or on the screen to move the snake around.
+  
+  Collect as many Green dots as you can and set a high score!
+
+# Screenshot
+![Snake Game](./images/Screenshot.png)
